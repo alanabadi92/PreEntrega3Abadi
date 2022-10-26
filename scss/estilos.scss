@@ -1,0 +1,47 @@
+
+
+.principal{
+    width: 100%;
+    height: 500px;
+    color: black;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: 0px;
+}
+
+.imagen_cuerpo{
+    height: 400px;
+}
+
+section{
+    border: solid 1px black;
+    padding: 50px;
+}
+
+.menu_header{
+    li{
+        border: solid 1px;
+    }
+    a{
+        color: black;
+        
+        &:hover{
+            color: red;
+        }
+    }
+}
+
+.titulo{
+    text-decoration: none;
+    color: black;
+    &:hover{
+        color: red;
+    }
+}
+
+
+    
+
+
+@import "bootstrap"
+
